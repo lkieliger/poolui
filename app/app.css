@@ -291,6 +291,36 @@ md-tooltip .md-content {
   height: 150px;
 }
 
+.chartcontainer-pool-d3{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.bar rect {
+    shape-rendering: crispEdges;
+}
+
+.bar text {
+    fill: #999999;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.chartcontainer-pool-d3-content{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .chartcontainer-pool .ng-isolate-scope {
   height:150px;
 }
